@@ -1,0 +1,354 @@
+top-bar {
+    font-size: 14px;
+    background-color: #f2ebeb;
+}
+.navbar-nav ml-auto{
+    margin-left
+}
+
+
+.top-bar .top-left {
+    font-weight: bold;
+}
+
+.top-bar .top-right {
+    font-size: 14px;
+}
+
+/* Style pour le menu principal */
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 800px;
+
+}
+
+
+.navbar-nav .nav-link:hover {
+    color: #F1C40F;
+}
+
+.social-icons a {
+    font-size: 18px;
+    
+}
+#apropos {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.profil-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #d3d3d3;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #6a1b9a;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.name-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.details li {
+    list-style: none;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+/* Cards Styling */
+.info-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+.card-hover:hover {
+    background-color: #6a1b9a;
+    color: #fff;
+}
+
+.card-hover:hover h4,
+.card-hover:hover p {
+    color: #fff;
+}
+
+/* Button Styling */
+.btn-purple {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-purple:hover {
+    background-color: #4a148c;
+    color: white;
+}
+.info-card {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.info-card .icon {
+    color: #6a1b9a; /* Couleur de l'icône */
+}
+
+.info-card h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Style par défaut des cartes */
+.icon-box {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .testimonials-section {
+        text-align: center;
+        padding: 50px 20px;
+    }
+    
+    .testimonials-section h2 {
+        font-size: 36px;
+        color: #5C2E91;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    .testimonials-section h2::after {
+        content: '';
+        display: block;
+        width: 80px;
+        height: 3px;
+        background-color: #5C2E91;
+        margin: 10px auto;
+    }
+    
+    .testimonials-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    
+    .testimonial-box {
+        background-color: white;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .testimonial-box p {
+        font-size: 16px;
+        color: #ffffff;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    
+    .testimonial-quote {
+        font-size: 40px;
+        color: #5C2E91;
+        margin-bottom: 10px;
+    }
+    
+    .testimonial-author {
+        display: flex;
+        align-items: center;
+    }
+    
+    .testimonial-author img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+    
+    .testimonial-author h4 {
+        margin: 0;
+        font-size: 18px;
+        color: #5C2E91;
+    }
+    
+    .testimonial-author p {
+        margin: 0;
+        font-size: 14px;
+        color: #999;
+    }
+
+    .hover-effect:hover {
+        border-color: #6A0DAD;
+        box-shadow: 0px 0px 10px rgba(106, 13, 173, 0.5);
+    }
+    .testimonial-item {
+        position: relative;
+      }
+      
+      .testimonial-image {
+        width: 100%;
+        height: auto;
+      }
+      
+      .testimonial-text-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background:white (243, 239, 239, 0.5);
+        color: white;
+        padding: 10px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      
+      .testimonial-item:hover .testimonial-text-overlay {
+        opacity: 1;
+      }
+      .testimonial-item {
+        position: relative;
+    }
+    .testimonial-image {
+        width: 100%;
+        height: auto;
+    }
+    .testimonial-text-overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(251, 249, 249, 0.5);
+        color: white;
+        padding: 10px;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+    .testimonial-item:hover .testimonial-text-overlay {
+        opacity: 1;
+    }
+   
+.footer-logo {
+    width: 150px; /* Ajustez la largeur du logo */
+}
+.footer-links, .footer-info, .social-icons {
+    list-style: none;
+    padding: 0;
+    color: #ffffff
+}
+.footer-links a, .footer-info a {
+    text-decoration: none;
+    color: #ffffff; /* Couleur des liens */
+}
+.footer-links a:hover, .footer-info a:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Couleur des liens au survol */
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.newsletter-input {
+    margin-right: 10px;
+    color: #ffffff
+}
+
+* Modifier le fond de la section */
+#outils {
+    background-color: white;
+}
+
+/* Couleur des titres et du texte */
+.card-title {
+    color: #6A0DAD;
+}
+
+.card-text {
+    color: black;
+}
+
+/* Couleur des icônes */
+.icon-service {
+    font-size: 40px;
+    color: #6A0DAD;
+}
+
+/* Effet de survol sur les cartes (texte et bordure) */
+.service-card:hover {
+    border: 2px solid #6A0DAD;
+}
+
+.service-card:hover .card-title {
+    color: #6A0DAD;
+}
+
+/* Modifier le fond de la section */
+#services {
+    background-color: white;
+}
+
+/* Couleur des titres et du texte */
+#services .card-title {
+    color: #6A0DAD; /* Couleur violet pour le titre */
+}
+
+#services .card-text {
+    color: black; /* Couleur du texte normal */
+}
+
+/* Couleur des icônes */
+#services .icon-service {
+    font-size: 40px;
+    color: #6A0DAD; /* Couleur violet pour les icônes */
+}
+
+/* Effet de survol sur les cartes (texte et bordure) */
+#services .service-card {
+    border: 2px solid transparent; /* Bordure par défaut */
+    transition: border-color 0.3s; /* Transition pour l'effet de survol */
+    border-radius: 5px; /* Coins arrondis pour les cartes */
+}
+
+#services .service-card:hover {
+    border: 2px solid #6A0DAD; /* Bordure violet au survol */
+}
+
+#services .service-card:hover .card-title {
+    color: #6A0DAD; /* Couleur du titre au survol */
+}
